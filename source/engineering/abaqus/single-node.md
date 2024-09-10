@@ -24,8 +24,7 @@ linenos: true
 
 # Load modules 
 module load apps/abaqus/2018
-# module load languages/intel/2020-u4              # BlueCrystal (Phase 4)
-# module load lang/intel-parallel-studio-xe/2020   # BluePebble
+module load languages/Intel-OneAPI/2022.2.0              # BlueCrystal (Phase 4) and BluePebble
 
 # Unset SLURM's Global Task ID for ABAQUS's PlatformMPI to work 
 unset SLURM_GTIDS 

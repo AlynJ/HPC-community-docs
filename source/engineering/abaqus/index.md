@@ -37,21 +37,11 @@ You can verify if Abaqus has been setup correctly by running the following comma
 $ abaqus information=version
 ```
 
-If you are using custom user subroutines, you will also need to load the Intel Fortran compiler:
+If you are using custom user subroutines, you will also need to load the Intel Fortran compiler on BlueCrystal (Phase 4) or BluePebble:
 
-::::{tab-set}
-:::{tab-item} BlueCrystal (Phase 4)
 ```console
-$ module load languages/intel/2020-u4
+$ module load languages/Intel-OneAPI/2022.2.0
 ```
-:::
-
-:::{tab-item} BluePebble
-```console
-$ module load lang/intel-parallel-studio-xe/2020
-```
-:::
-::::
 
 ## Fair Use
 
